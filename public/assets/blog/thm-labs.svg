@@ -1,0 +1,11 @@
+﻿<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TryHackMe labs illustration">
+  <rect width="800" height="500" rx="32" fill="#0f172a" />
+  <g stroke="#38bdf8" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M80 360 C180 320 220 220 320 200 C420 180 460 240 520 260 C580 280 620 260 720 220" />
+    <circle cx="200" cy="220" r="40" />
+    <circle cx="560" cy="240" r="60" />
+  </g>
+  <text x="50%" y="420" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="28" text-anchor="middle">
+    TryHackMe Lab Notes Placeholder
+  </text>
+</svg>

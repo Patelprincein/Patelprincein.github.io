@@ -1,0 +1,36 @@
+﻿:root {
+  --font-display: 'Space Grotesk', 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Space Grotesk', 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --radius-lg: 32px;
+  --radius-md: 20px;
+  --radius-sm: 12px;
+  --gradient-hero: radial-gradient(circle at 20% 20%, rgba(56, 189, 248, 0.3), transparent 45%),
+    radial-gradient(circle at 80% 0%, rgba(168, 85, 247, 0.25), transparent 40%),
+    radial-gradient(circle at 50% 80%, rgba(15, 118, 110, 0.25), transparent 45%);
+  --shadow-soft: 0 20px 35px rgba(2, 8, 23, 0.4);
+  --border-strong: rgba(148, 163, 184, 0.35);
+  --border-soft: rgba(148, 163, 184, 0.2);
+}
+
+:root,
+:root[data-theme='light'] {
+  --bg: #f8fafc;
+  --bg-elevated: rgba(255, 255, 255, 0.75);
+  --bg-card: rgba(255, 255, 255, 0.9);
+  --bg-alt: #eef2ff;
+  --text: #0f172a;
+  --muted: #475569;
+  --accent: #2563eb;
+  --accent-soft: rgba(37, 99, 235, 0.15);
+}
+
+:root[data-theme='dark'] {
+  --bg: #010409;
+  --bg-elevated: rgba(2, 6, 23, 0.7);
+  --bg-card: rgba(2, 6, 23, 0.9);
+  --bg-alt: #020c1b;
+  --text: #f8fafc;
+  --muted: #cbd5f5;
+  --accent: #38bdf8;
+  --accent-soft: rgba(56, 189, 248, 0.12);
+}

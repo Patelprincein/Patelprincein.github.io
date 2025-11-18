@@ -1,0 +1,3 @@
+﻿User-agent: *
+Allow: /
+Sitemap: https://patelprincein.github.io/portfolio/sitemap.xml

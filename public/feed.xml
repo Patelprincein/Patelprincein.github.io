@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Prince Patel | Software & Security</title>
+  <link>https://patelprincein.github.io/portfolio</link>
+  <description>Portfolio + writing hub for Prince Patel — UNB CS student exploring software, AI, and cybersecurity.</description>
+  <item>
+    <title><![CDATA[01-ethical-hacking]]></title>
+    <link>https://patelprincein.github.io/portfolio/#blog</link>
+    <guid>https://patelprincein.github.io/portfolio/#blog</guid>
+    <pubDate>Tue, 18 Nov 2025 18:27:51 GMT</pubDate>
+    <description><![CDATA[export const frontmatter = {
+  title: 'Breaking into Ethical Hacking Labs',
+  date: '2025-02-01',
+  tags: ['TryHackMe', 'Networking', 'Pl]]></description>
+  </item>
+  <item>
+    <title><![CDATA[02-fer-journal]]></title>
+    <link>https://patelprincein.github.io/portfolio/#blog</link>
+    <guid>https://patelprincein.github.io/portfolio/#blog</guid>
+    <pubDate>Tue, 18 Nov 2025 18:27:51 GMT</pubDate>
+    <description><![CDATA[export const frontmatter = {
+  title: 'FER-powered project notes',
+  date: '2025-01-14',
+  tags: ['Python', 'Computer Vision', 'Wellness ]]></description>
+  </item>
+</channel>
+</rss>

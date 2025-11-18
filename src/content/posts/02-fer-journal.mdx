@@ -1,0 +1,23 @@
+﻿export const frontmatter = {
+  title: 'FER-powered project notes',
+  date: '2025-01-14',
+  tags: ['Python', 'Computer Vision', 'Wellness Tech'],
+  cover: '/assets/blog/fer-toolkit.svg',
+  summary: 'Documenting the process of pairing FER with automation hooks to surface kinder software defaults.',
+}
+
+Bringing **FER** into student apps taught me the importance of deliberate consent flows, transparent storage, and fast opt-outs.
+
+- Build tiny prototypes in Jupyter with throwaway datasets.
+- Validate assumptions with **OpenCV** visualizations.
+- Only after that do I codify the workflow inside a CLI or UI.
+
+```python
+from fer import Video
+
+analysis = Video('study-session.mov')
+result = analysis.analyze(display=True)
+print(result[0]['emotions'])
+```
+
+I am now experimenting with *privacy-preserving* analytics: aggregating trends without storing identifiable video frames.
