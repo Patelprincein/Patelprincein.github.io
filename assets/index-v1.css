@@ -10,14 +10,16 @@
   --radius-sm: 10px;
 }
 :root[data-theme=dark] {
-  --bg: #0b0a14;
-  --bg-elevated: rgba(17, 16, 32, 0.7);
-  --bg-card: rgba(22, 21, 40, 0.85);
-  --bg-alt: #0e0d1f;
-  --accent: #06b6d4;
-  --accent-soft: rgba(6, 182, 212, 0.12);
-  --border-strong: rgba(148, 163, 184, 0.25);
-  --border-soft: rgba(148, 163, 184, 0.15);
+  --bg: #030712;                         /* Deep Obsidian */
+  --bg-elevated: rgba(17, 24, 39, 0.75); /* Translucent Slate-Gray */
+  --bg-card: rgba(31, 41, 55, 0.45);     /* Glassmorphic Card */
+  --bg-alt: #0b0f19;                     /* Soft Navy-Charcoal */
+  --text: #f9fafb;                       /* High-contrast off-white */
+  --muted: #9ca3af;                      /* Soft Silver-Gray */
+  --accent: #10b981;                     /* Bright Emerald Green */
+  --accent-soft: rgba(16, 185, 129, 0.12); /* Soft Emerald */
+  --border-strong: rgba(75, 85, 99, 0.35);  /* Clean Gray Border */
+  --border-soft: rgba(75, 85, 99, 0.2);
 }
 body {
   font-family: var(--font-body);
@@ -46,20 +48,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 .project-card:hover, .skill-card:hover, .stat-card:hover, .timeline-card:hover, .learning-card:hover, .github-card:hover {
   border-color: var(--accent);
-  box-shadow: 0 12px 30px rgba(6, 182, 212, 0.12);
+  box-shadow: 0 12px 30px rgba(16, 185, 129, 0.12);
   transform: translateY(-2px);
 }
 .button {
   font-family: var(--font-display);
-  background: linear-gradient(135deg, var(--accent), #6366f1) !important;
+  background: linear-gradient(135deg, var(--accent), #3b82f6) !important;
   color: #ffffff !important;
   border: none;
-  box-shadow: 0 4px 15px rgba(6, 182, 212, 0.25);
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.25);
   transition: all 0.3s ease;
 }
 .button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(6, 182, 212, 0.4);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
 }
 .button--ghost {
   background: transparent !important;
